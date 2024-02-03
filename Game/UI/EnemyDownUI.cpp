@@ -26,7 +26,7 @@ void EnemyDownUI::Init(){
 }
 
 void EnemyDownUI::Update(){
-	drawSize_.x = static_cast<float>(30 - EnemyManager::GetTotalDownCount()) / 30.0f * 1000.0f;
+	drawSize_.x = static_cast<float>(15 - EnemyManager::GetTotalDownCount()) / 15.0f * 1000.0f;
 	if (drawSize_.x <= 0) {
 		drawSize_.x = 0.0f;
 	}

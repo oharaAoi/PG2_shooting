@@ -24,7 +24,7 @@ void Bullet::Init() {
 
 	isAlive_ = true;
 
-	color_ = 0x7FFFD4ff;
+	color_ = 0x7FFFD466;
 
 	GH_ = Novice::LoadTexture("white1x1.png");
 

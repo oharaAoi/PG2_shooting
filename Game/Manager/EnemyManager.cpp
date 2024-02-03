@@ -41,7 +41,7 @@ void EnemyManager::Update(){
 		}
 	}
 
-	if (totalDownCount_ >= 30) {
+	if (totalDownCount_ >= 15) {
 		isEnemysAllDown_ = true;
 	}
 }
