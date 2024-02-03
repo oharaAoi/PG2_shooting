@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="KamataEngine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="KamataEngine\Source">
+      <UniqueIdentifier>{d966e9f8-e880-44ae-8586-a08515e4cffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KamataEngine\Include">
+      <UniqueIdentifier>{4aae4e40-94f7-4d32-9a91-c0c37a2edf0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KamataEngine\Adapter">
+      <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f95a7983-f601-40e5-8685-7c22a4a3fcc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\System">
+      <UniqueIdentifier>{bece422a-7fce-49c7-961b-aea0e1644150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib">
+      <UniqueIdentifier>{9ccb5b5b-0d23-4154-bbde-a6ee9adabede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib\hedder">
+      <UniqueIdentifier>{167f8c57-ef5c-4d14-88d3-8d0f527265f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib\source">
+      <UniqueIdentifier>{1f5e150c-545e-42ac-aa00-92b69a8eba35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\System\hedder">
+      <UniqueIdentifier>{ddeea7dd-2c58-4667-8adb-516e8a83f9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\System\source">
+      <UniqueIdentifier>{77ceec24-9e27-4ee3-b35a-d74d803928d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{67e25fe7-82ca-4370-8702-0842a697a2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\hedder">
+      <UniqueIdentifier>{e6d526e7-e392-4404-8219-f8fbc9695644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\source">
+      <UniqueIdentifier>{7be46d4d-f4fe-4347-9a6c-b80485e44fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Manager">
+      <UniqueIdentifier>{9b8f884f-9d50-4cc0-ba55-293aacb3c6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Manager\hedder">
+      <UniqueIdentifier>{9b749c4e-9e27-4898-8491-d83f60ebd1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Manager\source">
+      <UniqueIdentifier>{78861485-87fa-4ca4-a4d5-a160db143ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity">
+      <UniqueIdentifier>{a1b51ad3-ddb1-4850-a5eb-329fe292adcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\hedder">
+      <UniqueIdentifier>{6c771858-c9c2-4db5-9de3-c81d60787afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\source">
+      <UniqueIdentifier>{1f1fd80d-e4f4-496b-be1a-df64f6f9df0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{6738fbbd-e19e-44d3-9cbc-1b9ae2f0d517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\source">
+      <UniqueIdentifier>{393e77b8-2ba7-4c41-8051-993e01b81c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\hedder">
+      <UniqueIdentifier>{3ff880aa-1c32-4432-9b0d-a11a26e71e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Load">
+      <UniqueIdentifier>{c8c9895f-5c50-4d1a-b18a-bf0f6ae681c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision">
+      <UniqueIdentifier>{c65c05b7-01b0-47bf-9ceb-9a0330957648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision\hedder">
+      <UniqueIdentifier>{d6830df5-64d9-43ea-888b-c2e1a8127523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Collision\source">
+      <UniqueIdentifier>{4ebf8d17-b48f-4519-92fd-3592439cf58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{5a2ca14b-4b73-47aa-8954-c71423d3e43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\source">
+      <UniqueIdentifier>{77e410b2-7f55-4daf-bb03-178dce232fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\hedder">
+      <UniqueIdentifier>{d714be70-87da-4c62-af05-eebd59709730}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\TextureManager.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\scene\GameScene.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
+      <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lib\Draw.cpp">
+      <Filter>Game\Lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lib\Easing.cpp">
+      <Filter>Game\Lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lib\Matrix.cpp">
+      <Filter>Game\Lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lib\MyMath.cpp">
+      <Filter>Game\Lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lib\MyRandom.cpp">
+      <Filter>Game\Lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\System\Camera.cpp">
+      <Filter>Game\System\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\System\MyNovice.cpp">
+      <Filter>Game\System\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Manager\InputManager.cpp">
+      <Filter>Game\Manager\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Base_Scene.cpp">
+      <Filter>Game\Scene\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Scene_Title.cpp">
+      <Filter>Game\Scene\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Scene_Game.cpp">
+      <Filter>Game\Scene\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Scene_GameOver.cpp">
+      <Filter>Game\Scene\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Manager\SceneManager.cpp">
+      <Filter>Game\Manager\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\BaseEntity.cpp">
+      <Filter>Game\Entity\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\player.cpp">
+      <Filter>Game\Entity\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\BaseObject.cpp">
+      <Filter>Game\Object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Ground.cpp">
+      <Filter>Game\Object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Load\LoadJson.cpp">
+      <Filter>Game\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\MapChip.cpp">
+      <Filter>Game\Object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Block.cpp">
+      <Filter>Game\Object\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Collision\GroundCollision.cpp">
+      <Filter>Game\Collision\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\Bullet.cpp">
+      <Filter>Game\Entity\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Manager\BulletManager.cpp">
+      <Filter>Game\Manager\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Manager\CollisionManager.cpp">
+      <Filter>Game\Manager\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lib\Collision.cpp">
+      <Filter>Game\Lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\Enemy.cpp">
+      <Filter>Game\Entity\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Manager\EnemyManager.cpp">
+      <Filter>Game\Manager\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Collision\EnemyCollision.cpp">
+      <Filter>Game\Collision\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Collision\PlayerCollision.cpp">
+      <Filter>Game\Collision\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\BaseUI.cpp">
+      <Filter>Game\UI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\EnemyDownUI.cpp">
+      <Filter>Game\UI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\Boss.cpp">
+      <Filter>Game\Entity\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Collision\BossCollision.cpp">
+      <Filter>Game\Collision\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\BossBullet.cpp">
+      <Filter>Game\Entity\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Manager\BossBulletManager.cpp">
+      <Filter>Game\Manager\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\BossUI.cpp">
+      <Filter>Game\UI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Scene_Change.cpp">
+      <Filter>Game\Scene\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Scene_Clear.cpp">
+      <Filter>Game\Scene\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\DebugText.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Model.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\SafeDelete.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\Sprite.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\TextureManager.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\ViewProjection.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\WinApp.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\WorldTransform.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\Adapter\Novice.h">
+      <Filter>KamataEngine\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\CircleShadow.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\DebugCamera.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\DirectionalLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\LightGroup.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Material.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Mesh.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\PointLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\SpotLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector3.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector4.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\AddressStruct.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\Draw.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\EaseStruct.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\Easing.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\Matrix.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\MyMath.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\MyRandom.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\MyVector2.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\ParticleStruct.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\RectVertex.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\SoundStruct.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\System\Camera.h">
+      <Filter>Game\System\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\System\MyNovice.h">
+      <Filter>Game\System\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Manager\InputManager.h">
+      <Filter>Game\Manager\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Base_Scene.h">
+      <Filter>Game\Scene\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Scene_Title.h">
+      <Filter>Game\Scene\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Scene_Game.h">
+      <Filter>Game\Scene\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Scene_GameOver.h">
+      <Filter>Game\Scene\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Manager\SceneManager.h">
+      <Filter>Game\Manager\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\BaseEntity.h">
+      <Filter>Game\Entity\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\player.h">
+      <Filter>Game\Entity\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\BaseObject.h">
+      <Filter>Game\Object\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Ground.h">
+      <Filter>Game\Object\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Load\LoadJson.h">
+      <Filter>Game\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\MapChip.h">
+      <Filter>Game\Object\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Block.h">
+      <Filter>Game\Object\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collision\GroundCollision.h">
+      <Filter>Game\Collision\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\Bullet.h">
+      <Filter>Game\Entity\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Manager\BulletManager.h">
+      <Filter>Game\Manager\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Manager\CollisionManager.h">
+      <Filter>Game\Manager\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lib\Collision.h">
+      <Filter>Game\Lib\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\Enemy.h">
+      <Filter>Game\Entity\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Manager\EnemyManager.h">
+      <Filter>Game\Manager\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collision\EnemyCollision.h">
+      <Filter>Game\Collision\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collision\PlayerCollision.h">
+      <Filter>Game\Collision\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\BaseUI.h">
+      <Filter>Game\UI\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\EnemyDownUI.h">
+      <Filter>Game\UI\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\Boss.h">
+      <Filter>Game\Entity\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collision\BossCollision.h">
+      <Filter>Game\Collision\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\BossBullet.h">
+      <Filter>Game\Entity\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Manager\BossBulletManager.h">
+      <Filter>Game\Manager\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\BossUI.h">
+      <Filter>Game\UI\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Scene_Change.h">
+      <Filter>Game\Scene\hedder</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Scene_Clear.h">
+      <Filter>Game\Scene\hedder</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
